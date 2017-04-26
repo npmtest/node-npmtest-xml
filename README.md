@@ -1,6 +1,6 @@
 # npmtest-xml
 
-#### test coverage for  [xml (v1.0.1)](http://github.com/dylang/node-xml)  [![npm package](https://img.shields.io/npm/v/npmtest-xml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xml.svg)](https://travis-ci.org/npmtest/node-npmtest-xml)
+#### basic test coverage for  [xml (v1.0.1)](http://github.com/dylang/node-xml)  [![npm package](https://img.shields.io/npm/v/npmtest-xml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xml.svg)](https://travis-ci.org/npmtest/node-npmtest-xml)
 
 #### Fast and simple xml generator. Supports attributes, CDATA, etc. Includes tests and examples.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xml/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xml/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xml/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xml/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xml/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xml/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xml/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xml/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xml/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xml/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xml/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xml/build/coverage.html/index.html)
 
@@ -107,7 +107,8 @@
     "scripts": {
         "test": "ava"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
